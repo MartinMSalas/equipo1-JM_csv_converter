@@ -1,0 +1,2 @@
+NumeroPLU,Codigo PLu,Nombre PLU, Precio 1,Tipo PLU,codigo departamento, codigo receta - texto Libre, Precio alternativo,Codigo Etiqueta, dia hasta vencimiento,imprimir fecha envasado con 0
+01103,01103,PolloC V3,001052.71,P,1,01103,00098011,25,10,0

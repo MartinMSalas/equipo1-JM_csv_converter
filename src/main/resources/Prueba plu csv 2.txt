@@ -1,0 +1,2 @@
+NumeroPLU,Codigo PLu,Nombre PLU, Precio 1,Pesable? Tipo Producto, departamento, familia, Precio alternativo,Codigo Etiqueta,texto Libre?,vencimiento,fecha envasado
+01103,01103,PolloC V3,001052.71,P,1,0,00098011,25,4,10,0
