@@ -63,9 +63,10 @@ public class CsvConverter {
 
                     if (firstColumn >= 1700 && firstColumn <= 1709) {
                         valueToAppend = PRINT_DATE;
-                        // Change the ticket type to 35 for these lines
+                        // Set recipe = PLU number, the ticket type to 35 and 10 day to the exp. date for these lines
                         columns[6] = columns[0];
                         columns[8] = "35";
+                        columns[9] = "10";
                         modifiedLine = String.join(",",columns);
                     }
 
