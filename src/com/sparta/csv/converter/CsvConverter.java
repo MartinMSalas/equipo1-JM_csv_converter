@@ -68,6 +68,27 @@ public class CsvConverter {
                         columns[8] = "35";
                         columns[9] = "10";
                         modifiedLine = String.join(",",columns);
+                    } else if (firstColumn >= 3000 && firstColumn <= 3049) {
+                        valueToAppend = PRINT_DATE;
+                        // Set recipe = PLU number, the ticket type to 35 and 10 day to the exp. date for these lines
+                        columns[6] = columns[0];
+                        columns[8] = "35";
+                        columns[9] = "10";
+                        modifiedLine = String.join(",",columns);
+                    } else if (firstColumn >= 3050 && firstColumn <= 3099) {
+                        valueToAppend = PRINT_DATE;
+                        // Set recipe = PLU number, the ticket type to 35 and 60 day to the exp. date for these lines
+                        columns[6] = columns[0];
+                        columns[8] = "35";
+                        columns[9] = "60";
+                        modifiedLine = String.join(",",columns);
+                    } else if (firstColumn >= 3100 && firstColumn <= 3149) {
+                        valueToAppend = PRINT_DATE;
+                        // Set recipe = PLU number, the ticket type to 35 and 90 day to the exp. date for these lines
+                        columns[6] = columns[0];
+                        columns[8] = "35";
+                        columns[9] = "90";
+                        modifiedLine = String.join(",",columns);
                     }
 
                 } catch (NumberFormatException e) {
