@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <!-- Tipo de cabecera: 0 = GUI (sin consola), 1 = consola -->
+  <headerType>0</headerType>
+  
+  <!-- Archivo de salida .exe -->
+  <outfile>CsvConverter.exe</outfile>
+  
+  <!-- El .jar que se va a empaquetar -->
+  <jar>CsvConverter.jar</jar>
+  
+  <!-- false = empaquetar el jar dentro del exe -->
+  <dontWrapJar>false</dontWrapJar>
+  
+  <!-- Título de error -->
+  <errTitle>Error en CsvConverter</errTitle>
+  
+  <!-- Directorio de trabajo: "." = carpeta donde está el .exe -->
+  <chdir>.</chdir>
+  
+  <!-- No mantener vivo después de cerrar (para GUI) -->
+  <stayAlive>false</stayAlive>
+  
+  <!-- Icono (opcional, formato .ico) -->
+  <!-- <icon>icono.ico</icon> -->
+  
+  <!-- Configuración de JRE -->
+  <jre>
+    <!-- Versión mínima de Java requerida -->
+    <minVersion>1.8.0</minVersion>
+    <!-- Buscar JRE en el sistema (no empaquetar JRE) -->
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  
+  <!-- Información de versión (opcional) -->
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0</txtFileVersion>
+    <fileDescription>Convertidor de BALANZAS</fileDescription>
+    <copyright>Copyright (c) 2026</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0</txtProductVersion>
+    <productName>CsvConverter</productName>
+    <companyName>Microservices</companyName>
+    <internalName>CsvConverter</internalName>
+    <originalFilename>CsvConverter.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
