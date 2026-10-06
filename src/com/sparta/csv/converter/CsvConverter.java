@@ -30,7 +30,7 @@ public class CsvConverter {
     private static final String NOT_PRINT_DATE = "1";
 
     // Configuration constants applied exclusively to matched TARGET_PLUS
-    private static final String TICKET_TYPE = "90";
+    private static final String TICKET_TYPE = "91";
     private static final String EXPIRATION_DAYS = "10";
 
     // Value applied to every line in the "fiambreria" output
