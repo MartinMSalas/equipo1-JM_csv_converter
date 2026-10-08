@@ -34,7 +34,7 @@ public class CsvConverter {
     private static final String EXPIRATION_DAYS = "10";
 
     // Value applied to every line in the "fiambreria" output
-    private static final String FIAMBRERIA_LABEL = "1";
+    private static final String FIAMBRERIA_LABEL = "0";
 
     // Set containing specific PLU codes that require custom label and expiration settings
     private static final Set<Integer> TARGET_PLUS = new HashSet<>(Arrays.asList(
